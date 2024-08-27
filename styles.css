@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e23d3d;
+    background-image: url('poto.jpg');
+    background-size:cover; /* Mengatur ukuran gambar agar menutupi seluruh background */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    background-repeat: no-repeat; /* Mengatur gambar agar tidak diulang */
+    height: 200vh; /* Mengatur tinggi halaman sesuai dengan tinggi layar */
+    color: #fbff00;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #ff5733;
+    text-align: center;
+}
+
+.message {
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffffff00;
+}
+
+.heart-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ff6666;
+    transform: rotate(45deg) translate(-50%, -50%);
+    animation: heartbeat 1s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff6666;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -50px;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1) rotate(45deg);
+    }
+    25%, 75% {
+        transform: scale(1.2) rotate(45deg);
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Rara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Semangat untuk PKKP 💪</h1>
+        </header>
+
+        <audio id="background-audio" autoplay loop>
+            <source src="lagu.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    
+        <button onclick="toggleAudio()">Putar/Jeda Lagu</button>
+    
+        <script>
+            function toggleAudio() {
+                var audio = document.getElementById("background-audio");
+                if (audio.paused) {
+                    audio.play();
+                } else {
+                    audio.pause();
+                }
+            }
+        </script>
+
+        <section class="message">
+            <p>
+                Hai Rara,
+            </p>
+            <p>
+                Aku tahu, hari ini adalah langkah awalmu dalam perjalanan baru di dunia perkuliahan. Perasaan gugup dan bersemangat pasti bercampur aduk di dalam dirimu. Tapi, percayalah, ini adalah momen yang sangat berharga dalam hidupmu. Kamu akan menemukan begitu banyak pengalaman baru, bertemu dengan orang-orang yang luar biasa, dan menemukan lebih banyak tentang dirimu sendiri.
+            </p>
+            <p>
+                Setiap langkah yang kamu ambil selama kegiatan pengenalan kehidupan kampus ini adalah bagian dari perjalanan panjang menuju impianmu. Jangan takut untuk mencoba hal-hal baru, jangan ragu untuk bertanya, dan jangan pernah merasa bahwa kamu sendirian dalam perjalanan ini. Aku selalu ada di sini, mendukungmu dan mendoakan yang terbaik untukmu.
+            </p>
+            <p>
+                Ingatlah bahwa ini adalah kesempatanmu untuk belajar, berkembang, dan mengukir kenangan indah yang akan kamu bawa sepanjang hidup. Di kampus ini, kamu akan mendapatkan ilmu yang berharga, namun yang lebih penting, kamu akan belajar tentang hidup, tentang kemandirian, dan tentang bagaimana menjadi versi terbaik dari dirimu.
+            </p>
+            <p>
+                Jika suatu saat kamu merasa lelah atau ragu, ingatlah bahwa setiap tantangan yang kamu hadapi adalah langkah maju menuju impianmu. Jangan pernah menyerah, karena aku tahu kamu adalah orang yang kuat, cerdas, dan penuh dengan semangat. Setiap rintangan adalah kesempatan untuk belajar, dan setiap kesulitan adalah peluang untuk tumbuh.
+            </p>
+            <p>
+                Aku sangat bangga padamu, dan aku yakin kamu akan melakukan yang terbaik. Nikmati setiap momen yang kamu miliki, bertemanlah dengan orang-orang baru, dan biarkan dirimu menikmati setiap proses yang ada. Kampus adalah tempat yang akan memberikanmu begitu banyak pelajaran, tidak hanya tentang akademik, tapi juga tentang kehidupan.
+            </p>
+            <p>
+                Selalu ingat bahwa kamu tidak sendirian. Aku selalu ada di sini untukmu, siap mendengar setiap cerita, setiap kekhawatiran, dan setiap kebahagiaan yang kamu alami. Jadikan setiap hari di kampus ini sebagai petualangan baru yang penuh dengan pengetahuan dan kebahagiaan.
+            </p>
+            <p>
+                Semangat selalu, Aku sangat percaya padamu dan aku yakin kamu akan menjalani kegiatan pengenalan kehidupan kampus ini dengan luar biasa. Kamu adalah kebanggaanku, dan aku menantikan cerita-cerita hebat darimu.
+            </p>
+            <p>
+                Dengan penuh dukungan,
+            </p>
+            <p>
+                Dicky 😊
+            </p>
+        </section>
+    
+        <div class="heart-container">
+            <div class="heart"></div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
