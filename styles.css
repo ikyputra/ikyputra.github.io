@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e23d3d;
-    background-image: url('poto.jpg');
+    background-image: url('potos.jpg');
     background-size:cover; /* Mengatur ukuran gambar agar menutupi seluruh background */
     background-position: center; /* Mengatur posisi gambar di tengah */
     background-repeat: no-repeat; /* Mengatur gambar agar tidak diulang */
